@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=cyrillic');
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    display: inline-block;
+}
+
+header {
+    margin: 0 10%;
+}
+
+nav {
+    font-size: 0;
+}
+
+.nav_block {
+    font-size: 16px;
+    padding: 2% 1%;
+    display: inline-block;
+    background-color: #ff8261;
+}
+
+.nav_block a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_block:hover {
+    background-color: #52cbf8;
+}
+
+.scroll {
+    background-color: #222836;
+}
+
+.domain_search {
+    background-color: #e7f4f8;
+}
+
+.features {
+    background-color: #fffbde;
+}
+
+.newsletter {
+    background-color: #e7f4f8;
+}
+
+footer {
+    background-color: #4c515b;
+}
+
+ul {
+    list-style: none;
+}
+
+.block_container {}
+
+.block i{
+}
+
+.block {
+    width: 25%;
+    display: inline-block;
+}
+
+.f_links{
+    display: inline-block;
+}
