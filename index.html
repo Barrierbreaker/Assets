@@ -4,133 +4,271 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/normalize.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets\normalize.css">
+    <link rel="stylesheet" href="assets\css\style.css">
 </head>
 
 <body>
     <header>
-        <img src="assets/image/cloud-logo.png" alt="Logo">
-        <div class="logo">
-            <h1>HOSTING</h1>
+        <div class="content">
+            <div class="header_logotype">
+                <img src="assets/image/cloud-logo.png" alt="Logo">
+                <div class="header_logotext">
+                    <h1>HOSTING</h1>
+                </div>
+            </div>
+            <div class="panel">
+                <p>Support: <a href="#">info@webhosting.com |</a> <a href="#"> Register |</a><a href="#"> Login</a></p>
+            </div>
+            <nav>
+                <div class="nav_block"><a href="index.html">HOME</a></div>
+                <div class="nav_block"><a href="about.html">ABOUT US</a></div>
+                <div class="nav_block"><a href="service.html">SERVICE</a></div>
+                <div class="nav_block"><a href="plans.html">HOSTING PLANS</a></div>
+                <div class="nav_block"><a href="domain.html">DOMAIN</a></div>
+                <div class="nav_block"><a href="faq.html">FAQ</a></div>
+                <div class="nav_block"><a href="#">TESTIMONIALS</a></div>
+                <div class="nav_block"><a href="testimonials.html">BLOG</a></div>
+                <div class="nav_block"><a href="support.html">SUPPORT</a></div>
+                <div class="nav_block"><a href="contact.html">CONTACT US</a></div>
+            </nav>
         </div>
-        <div class="panel">
-            <p>Support: <a href="#">info@webhosting.com</a> | <a href="#">Register</a> | <a href="#">Login</a></p>
-        </div>
-        <nav>
-            <div class="nav_block"><a href="#">HOME</a></div>
-            <div class="nav_block"><a href="#">ABOUT US</a></div>
-            <div class="nav_block"><a href="#">SERVICE</a></div>
-            <div class="nav_block"><a href="#">HOSTING PLANS</a></div>
-            <div class="nav_block"><a href="#">DOMAIN</a></div>
-            <div class="nav_block"><a href="#">FAQ</a></div>
-            <div class="nav_block"><a href="#">TESTIMONIAL</a></div>
-            <div class="nav_block"><a href="#">BLOG</a></div>
-            <div class="nav_block"><a href="#">SUPPORT</a></div>
-            <div class="nav_block"><a href="#">CONTACT US</a></div>
-        </nav>
     </header>
     <main>
         <section class="scroll">
-            <button class="left">LEFT</button>
-            <button class="right">RIGHT</button>
-            <img src="assets/image/hosting.png" alt="Hosting" width="500" height="250">
-            <div class="bottom_text">
-                <h1>AWESOME HOSTING</h1>
-                <h4>WITH UNLIMITED FEATURES</h4>
+            <div class="content">
+                <button class="left">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </button>
+                <button class="right">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </button>
+                <div class="bottom_text">
+                    <p>AWESOME HOSTING</p>
+                    <p>WITH UNLIMITED FEATURES</p>
+                </div>
+                <div class="small_but">
+                    <button class="small">
+                        <i class="fa fa-circle-o" aria-hidden="true"></i>
+                    </button>
+                    <button class="small">
+                        <i class="fa fa-circle-o" aria-hidden="true"></i>
+                    </button>
+                    <button class="small">
+                        <i class="fa fa-circle-o" aria-hidden="true"></i>
+                    </button>
+                </div>
             </div>
-            <button class="small"></button>
-            <button class="small"></button>
-            <button class="small"></button>
         </section>
         <section class="domain_search">
-            <div class="leftpanel">
-                <i class="fa fa-search" aria-hidden="true"></i>
-                <h5>SEARCH YOUR</h5>
-                <h2>DOMAIN</h2>
+            <div class="content">
+                <div class="leftpanel">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <p>SEARCH YOUR</p>
+                    <p>DOMAIN</p>
+                </div>
+                <div class="f_domain">
+                    <form action="#" method="post">
+                        <input type="text" placeholder="Enter your domain name">
+                        <select name="year">
+                            <option value="1">Year 0-1</option>
+                            <option value="2">Year 1-3</option>
+                            <option value="3">Year 3-5</option>
+                        </select>
+                        <select name="domain">
+                            <option value="1">.com</option>
+                            <option value="2">.net</option>
+                            <option value="3">.se</option>
+                        </select>
+                        <input type="submit" name="domain_submit" value="SEARCH">
+                    </form>
+                </div>
             </div>
-            <form action="#" method="post">
-                <input type="text">
-                <select name="year">
-                    <option value="1">Year 0-1</option>
-                    <option value="2">Year 1-3</option>
-                    <option value="3">Year 3-5</option>
-                </select>
-                <select name="domain">
-                    <option value="1">.com</option>
-                    <option value="2">.net</option>
-                    <option value="3">.se</option>
-                </select>
-                <input type="submit" value="Search">
-            </form>
         </section>
         <section class="benefits">
-            <div class="block_container">
-                <ul>
-                    <li class="block">
+            <div class="content">
+                <div class="leftpanel" id="shortline">
+                    <i></i>
+                    <p>OUR</p>
+                    <p>BENEFITS</p>
+                </div>
+                <div class="block_container">
+                    <div class="block">
                         <i class="fa fa-ioxhost" aria-hidden="true"></i>
                         <div class="benefit_op">
-                            <h2>99.9% UPTIME</h2>
-                            <p>Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                            <p>99.9% UPTIME</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
                         </div>
-                    </li>
-                    <li class="block">
+                    </div>
+                    <div class="block">
                         <i class="fa fa-comments-o" aria-hidden="true"></i>
                         <div class="benefit_op">
-                            <h2>24/7/365 SUPPORT</h2>
-                            <p>Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                            <p>24/7/365 SUPPORT</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
                         </div>
-                    </li>
-                    <li class="block">
-                        <i class="fa fa-cog" aria-hidden="true"></i>
-                        <div class="benefit_op">
-                            <h2>PROTECT YOUR PC</h2>
-                            <p>Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
-                        </div>
-                    </li>
-                    <li class="block">
+                    </div>
+                    <div class="block">
                         <i class="fa fa-laptop" aria-hidden="true"></i>
                         <div class="benefit_op">
-                            <h2>DNS CONTROL</h2>
-                            <p>Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                            <p>PROTECT YOUR PC</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
                         </div>
-                    </li>
-                    <li class="block">
+                    </div>
+                    <div class="block">
+                        <i class="fa fa-gear" aria-hidden="true"></i>
+                        <div class="benefit_op">
+                            <p>DNS CONTROL</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+                        </div>
+                    </div>
+                    <div class="block">
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
                         <div class="benefit_op">
-                            <h2>DOMAIN TRANSFER</h2>
-                            <p>Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                            <p>DOMAIN TRANSFER</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
                         </div>
-                    </li>
-                    <li class="block">
+                    </div>
+                    <div class="block">
                         <i class="fa fa-lock" aria-hidden="true"></i>
                         <div class="benefit_op">
-                            <h2>100% SECURITY</h2>
-                            <p>Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                            <p>100% SECURITY</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
                         </div>
-                    </li>
-                </ul>
+                    </div>
+                    </ul>
+                </div>
             </div>
         </section>
         <section class="features">
+            <div class="content">
+                <div class="lefthalf">
+                    <div class="leftpanel" id="shortline">
+                        <i></i>
+                        <p>NOW</p>
+                        <p id="hot">WHAT IS HOT</p>
+                    </div>
+                    <img src="assets/image/4-layers.png" alt="What is hot">
+                </div>
+                <div class="righthalf">
+                    <div class="leftpanel" id="shortline">
+                        <i></i>
+                        <p>OUR</p>
+                        <p>FEATURES</p>
+                    </div>
+                    <div class="wholelist">
+                        <div class="ul_list">
+                            <ul class="list">
+                                <li class="list_op">Lorem Ipsum is simply dummy.</li>
+                                <li class="list_op">Discovered the undoubtable.</li>
+                                <li class="list_op">Various versions have evolved.</li>
+                                <li class="list_op">Suffered alteration in some.</li>
+                            </ul>
+                        </div>
+                        <div class="ul_list">
+                            <ul class="list">
+                                <li class="list_op">Specimen book.</li>
+                                <li class="list_op">Lpsum generators.</li>
+                                <li class="list_op">Sentence structures.</li>
+                                <li class="list_op">Embarrassing hidden.</li>
+                            </ul>
+                        </div>
+                        <button class="viewall">VIEW ALL</button>
+                    </div>
+                </div>
+            </div>
 
         </section>
         <section class="ourhosting">
-
+            <div class="content">
+                <div class="leftpanel" id="shortline">
+                    <i></i>
+                    <p>OUR</p>
+                    <p>HOSTING</p>
+                </div>
+                <div class="allplans">
+                    <div class="plan_op">
+                        <p>$<b>5</b></p>
+                        <p>PER MONTH</p>
+                        <p>STANDARD PLAN</p>
+                        <ul class="plan_list">
+                            <li>10GB Dsik Space</li>
+                            <li>1TB Bandwith</li>
+                            <li>Free DDoS Protection</li>
+                            <li>Free Daily Backups</li>
+                            <li class="noborder">Managed Hosting</li>
+                        </ul>
+                        <button class="signup">SIGN UP</button>
+                    </div>
+                    <div class="plan_op">
+                        <p>$<b>6</b></p>
+                        <p>PER MONTH</p>
+                        <p>ADVANCED PLAN</p>
+                        <ul class="plan_list">
+                            <li>10GB Dsik Space</li>
+                            <li>1TB Bandwith</li>
+                            <li>Free DDoS Protection</li>
+                            <li>Free Daily Backups</li>
+                            <li class="noborder">Managed Hosting</li>
+                        </ul>
+                        <button class="signup">SIGN UP</button>
+                    </div>
+                    <div class="plan_op">
+                        <p>$<b>8</b></p>
+                        <p>PER MONTH</p>
+                        <p>BUSINESS PLAN</p>
+                        <ul class="plan_list">
+                            <li>10GB Dsik Space</li>
+                            <li>1TB Bandwith</li>
+                            <li>Free DDoS Protection</li>
+                            <li>Free Daily Backups</li>
+                            <li class="noborder">Managed Hosting</li>
+                        </ul>
+                        <button class="signup">SIGN UP</button>
+                    </div>
+                    <div class="plan_op" id="nomargin">
+                        <p>$<b>9</b></p>
+                        <p>PER MONTH</p>
+                        <p>GOLD PLAN</p>
+                        <ul class="plan_list">
+                            <li>10GB Dsik Space</li>
+                            <li>1TB Bandwith</li>
+                            <li>Free DDoS Protection</li>
+                            <li>Free Daily Backups</li>
+                            <li class="noborder">Managed Hosting</li>
+                        </ul>
+                        <button class="signup">SIGN UP</button>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="newsletter">
-            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            <h5>SIGN UP YOUR</h5>
-            <h2>NEWSLETTER</h2>
-            <form action="#" method="post">
-                <input type="email" placeholder="Enter your domain name">
-                <input type="submit" value="SIGN UP NOW">
-            </form>
+            <div class="content">
+                <div class="leftpanel">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <p>SIGN UP YOUR</p>
+                    <p>NEWSLETTER</p>
+                </div>
+                <div class="f_newsletter">
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Enter your domain name">
+                        <input type="submit" value="SIGN UP NOW">
+                    </form>
+                </div>
+            </div>
         </section>
         <footer>
-            <div class="footer_info">
+            <div class="content">
+                <div class="logotype">
+                    <div class="logo">
+                        <img src="assets/image/cloud-logo.png" alt="Logo">
+                    </div>
+                    <div class="logotext">
+                        <p>HOSTING</p>
+                        <p>2015 © Allright Reserved</p>
+                    </div>
+                </div>
                 <div class="f_links">
-                    <h3>QUICK LINKS</h3>
+                    <p>QUICK LINKS</p>
                     <ul>
                         <li>Home</li>
                         <li>About us</li>
@@ -148,16 +286,16 @@
                     </ul>
                 </div>
                 <div class="f_links">
-                    <h3>CONTACT US</h3>
+                    <p>CONTACT US</p>
                     <ul>
-                        <li>9867 lipsum text here</li>
+                        <li id="Address">9867 lipsum text here</li>
                         <li>There are many variations</li>
-                        <li>info@hosting.com</li>
-                        <li>+87 7765 557 888</li>
+                        <li id="Email">info@hosting.com</li>
+                        <li id="Call">+87 7765 557 888</li>
                     </ul>
                 </div>
-                <div class="f_links">
-                    <h3>SOCIAL MEDIA</h3>
+                <div class="f_links" id="social">
+                    <p>SOCIAL MEDIA</p>
                     <ul>
                         <li>
                             <i class="fa fa-facebook" aria-hidden="true">
@@ -165,7 +303,7 @@
                         </i>
                         </li>
                         <li>
-                            <i class="fa fa-twiter" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
                         </li>
                         <li>
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
