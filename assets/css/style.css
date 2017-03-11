@@ -273,6 +273,7 @@ input[type="submit"] {
     width: 1000%;
 }
 
+
 .lefthalf {
     display: inline-block;
     width: 40%;
@@ -316,10 +317,11 @@ ul {
 }
 
 .lefthalf img {
-    margin-top: 30px;
+    margin-top: 3px;
     display: block;
     height: 116px;
-    width: auto;
+    width: 80%;
+    
 }
 
 .viewall {
@@ -496,3 +498,115 @@ footer p {
     width: 30px;
 }
 
+/*----------------------CONTACT US-----------------------*/
+
+
+/*-------------------------------------------------------*/
+
+.contact_scroll {
+    background-color: #222836;
+}
+
+.contact_us {
+    display: inline-block;
+    color: white;
+    padding: 100px 0;
+}
+
+.contact_us p:first-child {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contact_us p:nth-child(2) {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contact_us + i {
+    display: inline-block;
+    margin-left: 40%;
+    font-size: 120px;
+    color: white;
+}
+
+.application {
+    margin: 50px 0;
+}
+
+legend {
+    color: white;
+    background-color: #ff8261;
+    padding: 10px;
+}
+
+.application form p {
+    color: #859aa1;
+}
+
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+}
+
+.input_field {
+    margin: 2px 0;
+    width: 80%;
+    font-size: 14px;
+    border: 1px solid #dfecf0;
+    padding: 20px 20px;
+    color: #ff8261;
+}
+
+.input_field:focus {
+    color: #ff8261;
+}
+
+input[type="file"] {
+    background-color: #ff8261;
+    color: white;
+    padding: 10px;
+    width: 82%;
+}
+
+label {
+    color: #859aa1;
+}
+
+fieldset {
+    margin: 10px 0;
+    max-width: 40%;
+}
+
+#report_form {
+    color: #859aa1;
+    width: 84%;
+    border-color: #859aa1;
+}
+
+textarea {
+    border: 1px solid #dfecf0;
+    color: #fb6b45;
+    width: 84%;
+    height: 100px;
+    padding: 0;
+}
+
+.application input[type="submit"] {
+    border: none;
+    margin-left: 75%;
+    color: white;
+    background-color: #ff8261;
+    padding: 10px 30px;
+}
+
+iframe {
+    box-sizing: border-box;
+    margin: 30px 5%;
+    width: 90%;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
