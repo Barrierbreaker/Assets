@@ -463,6 +463,9 @@ footer p {
     font-size: 14px;
     font-weight: 700;
 }
+footer a {
+    color :#909AAD;
+}
 
 .f_links {
     display: inline-block;
